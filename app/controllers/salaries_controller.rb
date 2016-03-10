@@ -13,10 +13,11 @@ class SalariesController < ApplicationController
   def create
     @salary = Salary.new(salary_params)
     if @salary.save
-      
-    redirect_to salaries_path
+     redirect_to salaries_path
+   else
+      flash[:danger] = "You must enter a numeric salary!"
+      render action: 'new' 
     end
-  
   end
   
   private

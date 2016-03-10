@@ -26,6 +26,8 @@ header {
     align-items: center;
     font-family: 'Merriweather', serif,  sans-serif;
     color: #fff;
+    
+     
      
     
     h1{
@@ -35,17 +37,54 @@ header {
     
     
     p{
-       font-size: 205%;
-       color: #fff;
-       text-shadow: 2px 2px 7px #000;
+       font-size: 290%;
+       color: #000;
+       //text-shadow: 2px 2px 7px #fff;
         
-       margin-top: -25px;
-       
-        
+       //margin-top: -25px;
     }
     
-   // .home {
+    span {
         
-        //margin-top: -55px;
-   // }
+        color: #bf2438;
+    }
+    
+      
+
 }
+
+@media (max-width: 767px) {
+   
+  
+  header {
+      
+      h1{
+        font-size: 150%;
+        text-shadow: 2px 2px 7px #000;
+    }
+    
+     .form-control {
+    display: inline;
+    width: 65%;
+    height: 34px;
+    padding: 6px 12px;
+
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+  }
+  
+  
+  
+}
+ 
