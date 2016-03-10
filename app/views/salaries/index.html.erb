@@ -1,0 +1,4 @@
+<header> 
+    <p>Your hourly rate is $<%= "%.2f" % @hourly %> hr.</p> 
+    <p>Based on $<%= @salary.salary.to_s.reverse.scan(/\d{1,3}/).join(",").reverse %> a year.</p>
+</header>

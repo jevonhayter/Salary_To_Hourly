@@ -1,0 +1,36 @@
+// Place all the styles related to the Salaries controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+header {
+    
+    
+    background-image: url(asset-path('testifi-bg.jpeg')); 
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+   
+     
+    
+    
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Merriweather', serif,  sans-serif;
+    color: #fff;
+     
+    
+    h1{
+        font-size: 600%;
+        text-shadow: 2px 2px 7px #000;
+    }
+    
+    
+    p{
+       font-size: 205%;
+       color: #000;
+       
+        
+    }
+}
