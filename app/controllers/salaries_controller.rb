@@ -15,7 +15,7 @@ class SalariesController < ApplicationController
     if @salary.save
      redirect_to salaries_path
    else
-      flash[:danger] = "You must enter a numeric salary!"
+      flash.now[:danger] = "You must enter a numeric salary!"
       render action: 'new' 
     end
   end
